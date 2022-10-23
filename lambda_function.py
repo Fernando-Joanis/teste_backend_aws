@@ -2,8 +2,8 @@ import os
 import boto3
 import csv
 from io import StringIO
-from serializer import DataSerializer
-from orm_db import add_and_commit_db
+from serializer.serializer import DataSerializer
+from orm_db.orm_db import add_and_commit_db
 
 
 def lambda_handler(event, context):
